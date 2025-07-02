@@ -6,9 +6,7 @@ A full-stack smart home dashboard application with device control, todo manageme
 
 ## Submission Instructions
 
-- **Host your code in a public GitHub repository.**
-- **Add this README.md with setup steps, API details, and credentials.**
-- **Share the GitHub link with us within 2 days.**
+
 
 ---
 
