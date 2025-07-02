@@ -22,3 +22,19 @@
   margin-bottom: 1.5rem;
   max-width: 600px;
 }
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f8fafc;
+  border: 2px solid #4F8A8B;
+  border-radius: 10px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1.5rem;
+  width: fit-content;
+  box-shadow: 0 2px 8px rgba(79,138,139,0.07);
+}

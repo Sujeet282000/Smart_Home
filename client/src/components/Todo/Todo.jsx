@@ -10,6 +10,7 @@ import {
 import TodoCard from '../common/TodoCard/TodoCard';
 import { useLoader } from '../common/Loader/LoaderContext';
 import { toast } from 'react-toastify';
+import { FaTasks } from 'react-icons/fa';
 
 const Todo = () => {
   const [todos, setTodos] = useState([]);
@@ -87,7 +88,7 @@ const Todo = () => {
 
   return (
     <div className={styles.todoContainer}>
-      <h2 className="sectionHeading" style={{textAlign: 'left'}}>To-Do List</h2>
+      <h2 className="sectionHeader"><FaTasks style={{ color: '#4F8A8B' }} /> To-Do App</h2>
       <div className="sectionDescription">
         Interactive to-do list allowing users to create, read, update, delete, and mark tasks as complete. 
       </div>

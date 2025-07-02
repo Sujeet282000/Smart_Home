@@ -4,6 +4,7 @@ import WeatherCard from '../common/WeatherCard/WeatherCard';
 import { fetchWeatherForCities } from '../../services/weatherService';
 import { useLoader } from '../common/Loader/LoaderContext';
 import { toast } from 'react-toastify';
+import { FaCloudSun } from 'react-icons/fa';
 
 const cities = ['Delhi', 'Mumbai', 'Bangalore', 'Kolkata', 'Chennai', 'Indore', 'Ahmedabad', 'Bhopal'];
 
@@ -30,7 +31,7 @@ export default function WeatherWidget() {
 
   return (
     <div className={styles.weatherContainer}>
-      <h2 className="sectionHeading" style={{textAlign: 'left'}}>Weather Info</h2>
+      <h2 className="sectionHeader"><FaCloudSun style={{ color: '#4F8A8B' }} /> Weather Info</h2>
       <div className="sectionDescription">
         Displays current weather data for a fixed city (e.g., Mumbai or Delhi).
       </div>

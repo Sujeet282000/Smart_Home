@@ -3,7 +3,7 @@ import styles from './DevicesSection.module.css';
 import { getDevices, toggleDevice } from '../../services/deviceService';
 import { useLoader } from '../common/Loader/LoaderContext';
 import { toast } from 'react-toastify';
-import { FaLightbulb, FaSnowflake, FaLock } from 'react-icons/fa';
+import { FaLightbulb, FaSnowflake, FaLock, FaMicrochip } from 'react-icons/fa';
 
 // Helper to map device names to icons
 const deviceIconMap = [
@@ -52,7 +52,7 @@ const Device = () => {
 
   return (
     <div className={styles.devicesContainer}>
-      <h2 className="sectionHeading " style={{textAlign: 'left'}}>Smart Devices</h2>
+      <h2 className="sectionHeader"><FaMicrochip style={{ color: '#4F8A8B' }} /> Smart Devices</h2>
       <div className="sectionDescription">
         Simulates control of 3 smart home devices (e.g., Light, AC, Lock).
       </div>
